@@ -6,7 +6,7 @@ permalink: /:year/:month/:day/:title.html
 baseurl: ""
 url: "http://weijuner.com"
 atom-baseurl: "http://weijuner.com"
-author: "hackerxu"
+author: "weijuner"
 
 # Build settings
 # permalink: date
@@ -23,16 +23,16 @@ redcarpet:
       short_name : taizilongxu
 
 navigations:
-  - title: about
+  - title: 关于
     class: fa fa-list-ul
     href: /about/
-  - title: Archive
+  - title: 文字
     class: fa fa-tags
     href: /archive/
-  - title: Categories
+  - title: 分类
     class: fa fa-user
     href: /categories/
-  - title: Tags
+  - title: 标签
     class: fa fa-film
     href: /tags/
   - title: Rss
