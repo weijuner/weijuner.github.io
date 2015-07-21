@@ -23,16 +23,16 @@ redcarpet:
       short_name : taizilongxu
 
 navigations:
-  - title: 关于
+  - title: About
     class: fa fa-list-ul
     href: /about/
-  - title: 文字
+  - title: Archive
     class: fa fa-tags
     href: /archive/
-  - title: 分类
+  - title: Categories
     class: fa fa-user
     href: /categories/
-  - title: 标签
+  - title: Tags
     class: fa fa-film
     href: /tags/
   - title: Rss
