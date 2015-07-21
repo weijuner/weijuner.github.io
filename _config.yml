@@ -1,11 +1,11 @@
 # Site settings
-title: Hackerxu's Blog
-email: 468137306@qq.com
+title: weijuner
+email: weijuner.email@qq.com
 description: "Python,HTML,CSS,Machine Leaning"
 permalink: /:year/:month/:day/:title.html
 baseurl: ""
-url: "http://hackerxu.com"
-atom-baseurl: "http://hackerxu.com"
+url: "http://weijuner.com"
+atom-baseurl: "http://weijuner.com"
 author: "hackerxu"
 
 # Build settings
@@ -23,7 +23,7 @@ redcarpet:
       short_name : taizilongxu
 
 navigations:
-  - title: About
+  - title: about
     class: fa fa-list-ul
     href: /about/
   - title: Archive
