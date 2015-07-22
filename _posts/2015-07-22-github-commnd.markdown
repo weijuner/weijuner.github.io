@@ -11,7 +11,6 @@ tags:
 # 关于github的常用命令
 
 
----
 
  - git commit -m "new post"
  - git add .
@@ -30,4 +29,4 @@ tags:
  **国际惯例**
 
 
-  [1]: /img/20150722.jpg
+![img](/img/20150722.jpg)
