@@ -5,6 +5,7 @@ subtitle:   "github"
 date:       2015-07-22
 author:     "weijuner"
 header-img: "img/20150722.jpg"
+categories: "技术"
 tags:
     - github
 ---
