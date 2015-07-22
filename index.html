@@ -19,11 +19,12 @@ layout: default
     {% if month != m %}
     {% break %}
     {% endif %}
-    <li class="listing-item">
+   
+  {% endfor %}
+    <li class="listing-seperator"><a href="/archive/">风往哪吹我往哪追</a></li>
+	<li class="listing-item">
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
-  {% endfor %}
-    <li class="listing-seperator"><a href="/archive/">weijuner</a></li>
   </ul>
 </div>
