@@ -19,7 +19,10 @@ tags:
  - git push origin master
  - git fetch
  - git pull
+ - gitk
+ - git checkout
  - git@github.com:weijuner/weijuner.github.io.git
+
  
 
 > 以上
