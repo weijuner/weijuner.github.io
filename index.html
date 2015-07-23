@@ -11,20 +11,39 @@ layout: default
   {{ page.content }}
   </article>
   {% endfor %}
-  <ul class="posts">
-    <!-- <li class="listing-seperator">Yesterday you said tomorrow</li> -->
 
-    <li class="listing-seperator"><a href="/archive/">风往哪吹我往哪追</a></li>
-	  {% capture month %}{{ site.time | date:"%m"}}{% endcapture %}
-  {% for post in site.posts %}
-    {% capture m %}{{ post.date | date:"%m"}}{% endcapture %}
-    {% if month != m %}
-    {% break %}
-    {% endif %}
-    <li class="listing-item">
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-  </ul>
+
+<p><h1 align="center" style="color:red;"><a href="/archive/">风往哪吹我往哪追</a></h1>
+<div align="center">
+<p> Very quietly I take my leave
+<p>As quietly as I came here;
+<p> Quietly I wave good-bye
+<p> To the rosy clouds in the western sky.
+<p> The golden willows by the riverside
+<p> Are young brides in the setting sun;
+<p> Their reflections on the shimmering waves
+<p> Always linger in the depth of my heart.
+<p> The floating heart growing the sludge
+<p> Sways leisurely under the water;
+<p> In the gentle waves of Cambridge
+<p> I would be a water plant!
+<p> That pool under the shade of elm trees
+<p> Holds not water but the rainbow from the sky;
+<p> Shattered to pieces among the duck weeds
+<p> Is the sediment of a rainbow-like dream?
+<p> To seek a dream?
+<p> Just to pole a boat upstream
+<p> To where the green grass is more verdant
+<p> Or to have the boat fully loaded with starlight
+<p> And sing aloud in the splendor of starlight.
+<p> But I can’t sing aloud
+<p> Quietness is my farewell music;
+<p> Even summer insects heap silence for me
+<p> Silent is Cambridge tonight!
+<p> Very quietly I left
+<p> As quietly as I came here;
+<p> Gently I flick my sleeves
+<p> Not even a wisp of cloud will I bring away
+<p><img src="/img/20150722.jpg"/>
+</div>
 </div>
